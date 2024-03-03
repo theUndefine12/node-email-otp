@@ -4,8 +4,8 @@ import prisma from '../prisma/prisma.js'
 const transporter = nodemailer.createTransport({
   service: 'gmail',
   auth: {
-    user: 'aset16006@gmail.com',
-    pass: 'tayrwtmhmwoaotuf',
+    user: process.env.EMAIL,
+    pass: process.env.PASSWORD,
   },
 });
 
