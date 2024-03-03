@@ -30,6 +30,11 @@ Documentation for Nodemailer can be found at [nodemailer.com](https://nodemailer
 Add (.env) file and pull these lines
 
 JWT_SECRET = 
+EMAIL =  // Your Email
+PASSWORD = // Your application password
+
+For give application password you need activate Two-Step Verificatio enter to this
+find Application passwords enter and pull name line and copy password which give google after create app 
 
 
 DATABASE_URL="postgresql://username:password@localhost:5432/dbName?schema=public"
